@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="386.0" prefWidth="354.0" style="-fx-background-color: #2D3442;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="logId" layoutX="108.0" layoutY="261.0" mnemonicParsing="false" onAction="#Login" style="-fx-background-color: #3c58fa;" text="Log In">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtUserName" layoutX="33.0" layoutY="128.0" promptText="User Name" style="-fx-background-color: #a0a2ab;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtPassword" layoutX="33.0" layoutY="197.0" promptText="Password" style="-fx-background-color: #a0a2ab;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="lblStatus" layoutX="57.0" layoutY="57.0" prefHeight="40.0" prefWidth="214.0" text="Status" textFill="#e30909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="11.0" prefHeight="32.0" prefWidth="62.0" text="Score" textFill="#3c58fa">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="11.0" prefHeight="32.0" prefWidth="47.0" text="Board" textFill="#a0a2ab">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="284.0" layoutY="7.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="40.0" prefWidth="74.0" style="-fx-background-color: #2196f3;" text="Sign Up" />
+      <Label layoutX="271.0" layoutY="41.0" prefHeight="32.0" prefWidth="89.0" text="Not Registered?" textFill="#a0a2ab" />
+   </children>
+</AnchorPane>
